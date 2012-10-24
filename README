@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4286
+
+Navigation Enhancer v2.0 by joey.neuralyte.org
+
+aka Retrace Your Steps
+
+When moving the cursor between windows, given a choice of target windows,
+Vim normally uses the *cursor position* to choose the destination window.
+
+However I think a more intuitive approach when there may be more than one
+potential target window is to pick the one which was *used most recently*.
+
+Or perhaps more accurately, we want the window that we *last entered from, in
+that direction*.
+
+So now if I casually move between windows in one direction, and then in the
+opposite direction, I should always return to the window I started from!
+
